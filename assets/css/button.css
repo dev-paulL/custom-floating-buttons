@@ -1,0 +1,51 @@
+.cflb-button {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+.cflb-button:hover {
+  opacity: 0.8;
+}
+
+.cflb-button:hover span {
+  transform: scale(1.1);
+}
+
+.cflb-button:focus {
+  outline: 2px solid #1021b3;
+  outline-offset: 1px;
+}
+
+.cflb-position-top-left {
+  top: 1rem;
+  left: 1rem;
+}
+
+.cflb-position-top-right {
+  top: 1rem;
+  right: 1rem;
+}
+
+.cflb-position-bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.cflb-position-bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.cflb-position-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
